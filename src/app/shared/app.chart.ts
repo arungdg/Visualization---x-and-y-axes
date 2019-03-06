@@ -13,7 +13,7 @@ export class ChartComponent implements AfterViewInit {
     chart: Chart = {
         id: "chart-1",
         data: {
-          "background-color":"#ecf2f6",
+        //   "background-color":"#ecf2f6",
           "graphset":[
               {
                   "type":"line",
@@ -148,13 +148,13 @@ export class ChartComponent implements AfterViewInit {
                           "values":[51,53,47,60,48,52,75,52,55,47,60,48],
                           "text":"Route 2",
                           "line-width":"2px",
-                          "line-color":"#25a6f7",
+                          "line-color":"#660000",
                           "shadow":0,
                           "marker":{
                               "background-color":"#fff",
                               "size":3,
                               "border-width":1,
-                              "border-color":"#1993e0",
+                              "border-color":"#660000",
                               "shadow":0
                           },
                           "palette":1,
@@ -195,8 +195,8 @@ export class ChartComponent implements AfterViewInit {
               }
           ]
       },
-        height: 800,
-        width: 800
+        height: 1000,
+        width: 1000
       };
 
       ngAfterViewInit() {

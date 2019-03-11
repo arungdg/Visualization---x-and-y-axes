@@ -1,0 +1,59 @@
+{
+    "vehId": 1,
+    "Route": [
+        {
+            "nodeId": 0,
+            "node_X": 50,
+            "node_Y": 50,
+            "demand": 0,
+            "isRouted": false,
+            "routed": false,
+            "depot": true
+        },
+        {
+            "nodeId": 1,
+            "node_X": 12.9716037,
+            "node_Y": 77.59454079999999,
+            "demand": 5,
+            "isRouted": true,
+            "routed": true,
+            "depot": false
+        },
+        {
+            "nodeId": 2,
+            "node_X": 12.9716037,
+            "node_Y": 77.59454079999999,
+            "demand": 5,
+            "isRouted": true,
+            "routed": true,
+            "depot": false
+        },
+        {
+            "nodeId": 3,
+            "node_X": 12.9716037,
+            "node_Y": 77.59454079999999,
+            "demand": 5,
+            "isRouted": true,
+            "routed": true,
+            "depot": false
+        },
+        {
+            "nodeId": 4,
+            "node_X": 12.9716037,
+            "node_Y": 77.59454079999999,
+            "demand": 5,
+            "isRouted": true,
+            "routed": true,
+            "depot": false
+        },
+        {
+            "nodeId": 0,
+            "node_X": 50,
+            "node_Y": 50,
+            "demand": 0,
+            "isRouted": false,
+            "routed": false,
+            "depot": true
+        }
+    ]
+}
